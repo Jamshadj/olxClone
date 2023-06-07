@@ -48,7 +48,7 @@ function App() {
           <Route path='/product/:id' element={<ViewPost />} />
           <Route path='/search' element={<Search />} />
 
-        </Routes>
+        </Routes>   
       }    
       </Router>
       
