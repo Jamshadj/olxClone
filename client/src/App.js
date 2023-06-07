@@ -38,7 +38,7 @@ function App() {
           <Route path='/search' element={<Search />} />
         </Routes>
       }
-      {  
+      {
           user.login &&
         <Routes>
           <Route path='/' element={<Home />} />
